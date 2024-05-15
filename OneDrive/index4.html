@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <title>Job Details</title>
+    <style>
+        body {
+          background-color: #AFDBF5 ;
+      }
+      .navbar {
+          background-color: #002D62;
+      }
+      
+      
+      .login-container {
+          margin: auto;
+
+          margin-top: 150px;
+          background-color: #62b9ef ;
+          border-radius: 10px;
+          padding: 20px;
+          width: 350px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+      
+      .form-group {
+          margin: 20px;
+          margin-left: 5px;
+      }
+      
+      label {
+          color: black;
+      }
+      
+      input[type="text"],
+      input[type="password"] {
+          width: 100%;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+      }
+      
+      .login-button {
+          background-color: #FAF0E6;
+          color: #352F44;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+      }
+      
+      .login-button:hover {
+          background-color: #B9B4C7;
+      }
+      
+      .back-button {
+          background-color: #FAF0E6;
+          color: #352F44;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          text-decoration: none;
+      }
+      
+      .back-button:hover {
+          background-color: #B9B4C7;
+      }
+      
+      .button-container {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+      }
+
+
+
+
+      body {
+        background-color: #AFDBF5;
+    }
+    .navbar {
+        background-color: #002D62;
+    }
+    .card {
+        background: #62b9ef ;
+        backdrop-filter: blur(10px);
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .containbox{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+  </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Job Portal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://google.com">Browse Jobs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://fiver.com">Post a Job</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index2.html">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>   
+    <div class="container">
+        <form>
+          <label for="jobTitle">Job Title:</label>
+          <input type="text" id="jobTitle" name="jobTitle" required><br>
+          
+          <label for="companyName">Company Name:</label>
+          <input type="text" id="companyName" name="companyName" required><br>
+          
+          <label for="jobDescription">Job Description:</label><br>
+          <textarea id="jobDescription" name="jobDescription" rows="4" cols="50" required></textarea><br>
+          
+          <label for="contactEmail">Contact Email:</label>
+          <input type="email" id="contactEmail" name="contactEmail" required><br>
+          
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
